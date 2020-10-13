@@ -1,0 +1,70 @@
+﻿body {
+    display: flex;
+    margin: 0 auto;
+    background-color: #faf1e8;
+    text-align: center;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Geneva, Verdana, sans-serif;
+}
+
+html, body {
+    height: 100vh;
+}
+
+footer {
+    background: black;
+    color: #6f6f6f;
+    font-weight: bold;
+    padding: 1%;
+}
+
+main {
+    flex-grow: 1;
+}
+
+table {
+    margin-top: 1%;
+    width: 100%;
+    border: 1pt solid black;
+}
+
+#author {
+    border: 1pt solid black;
+}
+
+    #author:hover {
+        text-shadow: 1px 0px 0px black;
+        cursor: pointer;
+    }
+
+table ~ table {
+    display: inline-block;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    width: 400px;
+    text-align: start;
+}
+
+button {
+    margin-top: 15px;
+}
+
+.posts td {
+    width: 200px;
+    height: 200px;
+    text-align: start;
+    border: 1pt solid black;
+    border-radius: 6px;
+}
+
+.posts {
+    width: 90%;
+    display: inline-block;
+}
+
+    .posts table {
+        border: 0;
+    }
+
+h3 {
+    text-align:center;
+}
