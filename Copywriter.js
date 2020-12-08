@@ -10,9 +10,9 @@ let User = {
     posts: { title: [], body: [] }
 };
 let Authors = [];
-let index;
 
 $(document).ready(function () {
+    let index;
     $.get("https://jsonplaceholder.typicode.com/users", function (data) {
         for (let i = 0; i < data.length; i++) {
             User.id = data[i].id;
